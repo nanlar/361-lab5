@@ -14,30 +14,29 @@
     <h1>My heading1 - Lab 5 - CSS Data Table</h1>
     <p>
       My paragraph - Four Planets Table is included below.
-    </p>
-  
-    <table>
+    </p>  
+    <table id="data-table">
       <caption>Planetary Facts of First Four planets of Solar System (Data taken from <a href="http://pds.jpl.nasa.gov/planets/special/planets.htm">Nasa's Planetary Fact Sheet</a>).</caption>
       <colgroup>
-        <col>
-        <col span="8">
+        <col id="planet">
+        <col id="facts" span="7">
       </colgroup>
       <thead>
         <td colspan="8"></td>
         <tr>
-          <th scope="col">Planet Name</th>
-          <th scope="col">Mass (kg)</th>
-          <th scope="col">Diameter (km)</th>
-          <th scope="col">Mean Density (kg/m<sup>3</sup>)</th>
-          <th scope="col">Escape Velocity (m/s)</th>
-          <th scope="col">Avg Distance from Sun</th>
-          <th scope="col">Rotation Period (Length of day in Earth days)</th>
-          <th scope="col">Revolution Period (Length of year in Earth days)</th>
+          <th id="name">Planet Name</th>
+          <th id="mass">Mass (kg)</th>
+          <th id="diameter">Diameter (km)</th>
+          <th id="density">Mean Density (kg/m<sup>3</sup>)</th>
+          <th id="velocity">Escape Velocity (m/s)</th>
+          <th id="distance">Avg Distance from Sun</th>
+          <th id="rotation">Rotation Period (Length of day in Earth days)</th>
+          <th id="revolution">Revolution Period (Length of year in Earth days)</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <th scope="row">Mercury</th>
+          <th id="mercury">Mercury</th>
           <td>3.3 x 10<sup>23</sup></td>
           <td>4879.4</td>
           <td>5420</td>
@@ -47,7 +46,7 @@
           <td>87.97</td>
         </tr>
         <tr>
-          <th scope="row">Venus</th>
+          <th id="venus">Venus</th>
           <td>4.87 x 10<sup>24</sup></td>
           <td>12,104</td>
           <td>5250</td>
@@ -57,7 +56,7 @@
           <td>224.7</td>
         </tr>
         <tr>
-          <th scope="row">Earth</th>
+          <th id="earth">Earth</th>
           <td>5.98 x 10<sup>24</sup></td>
           <td>12,756</td>
           <td>5520</td>
@@ -67,8 +66,8 @@
           <td>365.26</td>
         </tr>
         <tr>
-          <th scope="row">Mars</th>
-          <td>6.42 x 10<sup>23</su</td>
+          <th id="mars">Mars</th>
+          <td>6.42 x 10<sup>23</sup></td>
           <td>6787</td>
           <td>3940</td>
           <td>5000</td>
@@ -77,13 +76,7 @@
           <td>686.98</td>
         </tr>
       </tbody>
-      <tfoot>
-        <tr>
-          <td>You can put the Footer content here</td>
-        </tr>
-      </tfoot>
-    </table>
-        
+    </table>      
   </main>
   </body>
 
