@@ -13,68 +13,72 @@
   <main id="content">
     <h1>ITMD-361 Lab 5 - CSS Data Table</h1>
     <p></p>
-    <table id="data-table">
-      <caption>Facts of Solar System's First Four Planets (from <a href="http://pds.jpl.nasa.gov/planets/special/planets.htm">NASA's Planetary Facts</a>)</caption>
-      <colgroup>
-        <col id="planets">
-        <col id="facts" span="7">
-      </colgroup>
-      <thead>
-        <td colspan="8"></td>
-        <tr>
-          <th id="name">Planet Name</th>
-          <th id="mass">Mass (kg)</th>
-          <th id="diameter">Diameter (km)</th>
-          <th id="density">Mean Density (kg/m<sup>3</sup>)</th>
-          <th id="velocity">Escape Velocity (m/s)</th>
-          <th id="distance">Avg Distance from Sun</th>
-          <th id="rotation">Rotation Period (day in Earth days)</th>
-          <th id="revolution">Revolution Period (year in Earth days)</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th id="mercury" class="planet">MERCURY</th>
-          <td>3.3 x 10<sup>23</sup></td>
-          <td>4879.4</td>
-          <td>5420</td>
-          <td>4300</td>
-          <td>0.387 AU (57,909,175 km)</td>
-          <td>58.65</td>
-          <td>87.97</td>
-        </tr>
-        <tr>
-          <th id="venus" class="planet">VENUS</th>
-          <td>4.87 x 10<sup>24</sup></td>
-          <td>12,104</td>
-          <td>5250</td>
-          <td>10400</td>
-          <td>0.723 AU (108,208,930 km)</td>
-          <td>243.02 (retrograde)</td>
-          <td>224.7</td>
-        </tr>
-        <tr>
-          <th id="earth" class="planet">EARTH</th>
-          <td>5.98 x 10<sup>24</sup></td>
-          <td>12,756</td>
-          <td>5520</td>
-          <td>11200</td>
-          <td>1 AU (149.597,890 km)</td>
-          <td>1 (23.93 hours)</td>
-          <td>365.26</td>
-        </tr>
-        <tr>
-          <th id="mars" class="planet">MARS</th>
-          <td>6.42 x 10<sup>23</sup></td>
-          <td>6787</td>
-          <td>3940</td>
-          <td>5000</td>
-          <td>1.524 AU (227,936,640 km)</td>
-          <td>1.026</td>
-          <td>686.98</td>
-        </tr>
-      </tbody>
-    </table>      
+    <h2>Welcome to the Planets</h2>
+    <p></p>
+    
+    <div class="container-tbl" id="cont-table">
+    
+      <div id="tbl-header">Facts of Solar System's First Four Planets (from <a href="http://pds.jpl.nasa.gov/planets/special/planets.htm">NASA's Planetary Facts</a>)</div>
+      
+      <div class="row-header" id="row-header">
+        <div class="cell-header" id="name">Planet Name</div>
+        <div class="cell-header" id="mass">Mass (kg)</div>
+        <div class="cell-header" id="diameter">Diameter (km)</div>
+        <div class="cell-header" id="density">Mean Density (kg/m<sup>3</sup>)</div>
+        <div class="cell-header" id="velocity">Escape Velocity (m/s)</div>
+        <div class="cell-header" id="distance">Avg Distance from Sun (AU)</div>
+        <div class="cell-header" id="rotation">Rotation Period (day in Earth days)</div>
+        <div class="cell-header" id="revolution">Revolution Period (year in Earth days)</div>
+      </div>
+      
+      <div class="planet" id="row-mercury">
+          <div id="mercury">MERCURY</div>
+          <div>3.3x10<sup>23</sup></div>
+          <div>4879.4</div>
+          <div>5420</div>
+          <div>4300</div>
+          <div>0.387(57,909,175 km)</div>
+          <div>58.65</div>
+          <div>87.97</div>
+      </div>
+        
+      <div class="planet" id="row-venus">
+        <div id="venus">VENUS</div>
+        <div>4.87x10<sup>24</sup></div>
+        <div>12,104</div>
+        <div>5250</div>
+        <div>10400</div>
+        <div>0.723(108,208,930 km)</div>
+        <div>243.02(retrograde)</div>
+        <div>224.7</div>
+      </div>
+      
+      <div class="planet" id="row-earth">
+        <div id="row-earth">EARTH</div>
+          <div>5.98x10<sup>24</sup></div>
+          <div>12,756</div>
+          <div>5520</div>
+          <div>11200</div>
+          <div>1(149.597,890 km)</div>
+          <div>1(23.93 hours)</div>
+          <div>365.26</div>
+      </div>
+        
+      <div class="planet" id="row-mars">
+        <div id="mars">MARS</div>
+          <div>6.42x10<sup>23</sup></div>
+          <div>6787</div>
+          <div>3940</div>
+          <div>5000</div>
+          <div>1.524(227,936,640 km)</div>
+          <div>1.026</div>
+          <div>686.98</div>
+      </div> 
+      
+      <footer id="table-footer">
+        <p>1 AU(Astronomical Unit) is 149,597,870.7km</p>
+      </footer>
+    </div>      
   </main>
   </body>
 

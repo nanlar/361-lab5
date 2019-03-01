@@ -11,31 +11,24 @@ h1, h2 {
   color: white;
 }
 
-.container-table {
-  display: grid;
-  grid-columns: 1fr 1fr 1fr 1fr;
-  /* grid-columns: repeat(8, 1fr);*/
+#data-table {
+  table-layout: auto;
   width: 80%;
   margin: auto;
-  overflow: scroll;  /* NHA- or auto,  scrollable for smaller screens */
-  background-color: LightGray;
+  caption-side: top;
+  text-align: center;
   font-size: 1em;  /* at 16px */
   border-collapse: collapse;
+  background-color: LightGray;
+  overflow: scroll;  /* scrollable for smaller screens */
 }
 
-#tbl-header {
+table caption {
   padding: 0.25em;
   background-color: Silver;
   font-size: 1.5em;
   font-weight: 700;  /* for bold effect */
   color: purple;
-}
-
-.row-header {
-  border: 1px solid #668db6;
-  background-color: #336799;
-  color: white;
-  font-weight: bold;
 }
 
 .planet {
