@@ -27,7 +27,13 @@ table caption {
   padding: 0.25em;
   background-color: Silver;
   font-size: 1.5em;
+  font-weight: 700;  /* for bold effect */
   color: purple;
+}
+
+.planet {
+  background-color: yellow;  /* nha - find a better color */
+  
 }
 
 #mercury {
