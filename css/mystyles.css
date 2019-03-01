@@ -12,6 +12,7 @@ h1 {
 }
 
 #data-table {
+  table-layout: auto;
   width: 80%;
   margin: auto;
   caption-side: top;
@@ -19,7 +20,7 @@ h1 {
   font-size: 1em;  /* at 16px */
   border-collapse: collapse;
   background-color: LightGray;
-  overflow: scroll;  /* scrollable for small screens */
+  overflow: scroll;  /* scrollable for smaller screens */
 }
 
 table caption {
@@ -29,16 +30,12 @@ table caption {
   color: purple;
 }
 
-#planet {
-  font-size: 1.25em;
-}
-
 #mercury {
   color: green;
 }
 
 #venus {
-  color:#ff4081 ;
+  color: #ff4081 ;
 }
 
 #earth {
