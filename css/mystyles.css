@@ -1,5 +1,28 @@
 /* Nilufer Anlar
    mystyles.css */
    
-/* The following are my styles defined for the ITMD Lab5 */
+/* The following are my styles defined for the ITMD Lab5 */ 
+
+body {
+  background-image: url("../media/milkyway.jpg");
+}
+
+#data-table {
+  width: 80%;
+  margin: auto;
+  caption-side: top;
+  text-align: center;
+  font-size: 1em;  /* at 16px */
+  border-collapse: collapse;
+  background-color: WhiteSmoke;
+}
+
+table caption {
+  padding: 0.2em;
+  background-color: LightGray;
+  font-size: 1.5em;
+  color: purple;
+}
+
+
 
