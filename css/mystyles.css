@@ -7,6 +7,10 @@ body {
   background-image: url("../media/milkyway.jpg");
 }
 
+h1 {
+  color: white;
+}
+
 #data-table {
   width: 80%;
   margin: auto;
@@ -14,15 +18,42 @@ body {
   text-align: center;
   font-size: 1em;  /* at 16px */
   border-collapse: collapse;
-  background-color: WhiteSmoke;
+  background-color: LightGray;
+  overflow: scroll;  /* scrollable for small screens */
 }
 
 table caption {
-  padding: 0.2em;
-  background-color: LightGray;
+  padding: 0.25em;
+  background-color: Silver;
   font-size: 1.5em;
   color: purple;
 }
+
+#planet {
+  font-size: 1.25em;
+}
+
+#mercury {
+  color: green;
+}
+
+#venus {
+  color:#ff4081 ;
+}
+
+#earth {
+  color: blue;
+}
+
+#mars {
+  color: red;
+}
+
+
+
+
+
+
 
 
 
