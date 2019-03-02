@@ -53,7 +53,6 @@ table caption {
 }
 
 #table-footer {
-    display: center;
     justify-content: center;
     padding: 5px;
     background-color: blue;
