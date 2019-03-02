@@ -1,13 +1,15 @@
 /* Nilufer Anlar
    mystyles.css */
    
-/* The following are my styles defined for the ITMD Lab5 */ 
+/* The following are my styles defined for the ITMD-361 Lab5 */ 
 
 body {
   background-image: url("../media/milkyway.jpg");
+  font-family: Verdana, Helvetica, sans-serif;
 }
 
-h1, h2 {
+h1, h2, p {
+  margin-left: 20px;
   color: white;
 }
 
@@ -24,7 +26,7 @@ h1, h2 {
 }
 
 table caption {
-  padding: 0.25em;
+  padding: 0.5em;
   background-color: Silver;
   font-size: 1.5em;
   font-weight: 700;  /* for bold effect */
@@ -32,10 +34,12 @@ table caption {
 }
 
 #planets {
+  padding: 1em;
   background-color: beige;
 }
 
 #row-mercury {
+  padding: 1em;
   color: green;
 }
 
@@ -51,9 +55,10 @@ table caption {
   color: red;
 }
 
-#table-footer {
+#data-source {
   font-size: 1em;
   font-style: oblique;
+  padding: 0.5em;
   justify-content: center;
   background-color: skyblue;
   color: white;
