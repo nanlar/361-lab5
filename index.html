@@ -13,18 +13,17 @@
   <main id="content">
     <h1>ITMD-361 Lab 5 - CSS Data Table</h1>
     <p></p>
-    <h2>Welcome to the Planets</h2>
+    <h2>First Four Planets of our Solar System</h2>
     <p></p>
     <table id="data-table">
-      <caption>Facts of Solar System's First Four Planets (from <a href="http://pds.jpl.nasa.gov/planets/special/planets.htm">NASA's Planetary Facts</a>)</caption>
-      <colgroup>
+      <caption>Key Facts of Solar System's First Four Planets</caption>
+      <colgroup> 
         <col id="planets">
         <col id="facts" span="7">
       </colgroup>
       <thead id="row-head">
-        <! td colspan="8"></td>
         <tr>
-          <th id="name">Planet Name</th>
+          <th id="name">Planet</th>
           <th id="mass">Mass (kg)</th>
           <th id="diameter">Diameter (km)</th>
           <th id="density">Mean Density (kg/m<sup>3</sup>)</th>
@@ -78,10 +77,12 @@
       </tbody>
       <tfoot id="table-footer">
         <tr>
-          <td colspan="8">1 AU(Astronomical Unit) is 149,597,870.7km</td>
+          <td colspan="8"> Data Source: <a href="http://pds.jpl.nasa.gov/planets/special/planets.htm">NASA's Planet Profiles</a></td>
         </tr>
       </tfoot>
-    </table>      
+    </table>     
+    
+      
   </main>
   </body>
 

@@ -19,7 +19,7 @@ h1, h2 {
   text-align: center;
   font-size: 1em;  /* at 16px */
   border-collapse: collapse;
-  background-color: LightGray;
+  background-color: Lavender;
   overflow: scroll;  /* scrollable for smaller screens */
 }
 
@@ -31,33 +31,35 @@ table caption {
   color: purple;
 }
 
-.planet {
-  background-color: yellow;  /* nha - find a better color */
-  
+#planets {
+  background-color: beige;
 }
 
-#mercury {
+#row-mercury {
   color: green;
 }
 
-#venus {
-  color: #ff4081 ;
+#row-venus {
+  color: #ff1493;
 }
 
-#earth {
+#row-earth {
   color: blue;
 }
 
-#mars {
+#row-mars {
   color: red;
 }
 
 #table-footer {
-    justify-content: center;
-    padding: 5px;
-    background-color: blue;
-    color: white;
+  font-size: 1em;
+  font-style: oblique;
+  justify-content: center;
+  background-color: skyblue;
+  color: white;
 }
+
+
 
 
 
