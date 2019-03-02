@@ -34,12 +34,10 @@ table caption {
 }
 
 #planets {
-  padding: 1em;
   background-color: beige;
 }
 
 #row-mercury {
-  padding: 1em;
   color: green;
 }
 
@@ -53,6 +51,11 @@ table caption {
 
 #row-mars {
   color: red;
+}
+
+table td {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 #data-source {
