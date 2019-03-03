@@ -4,6 +4,7 @@
 /* The following are my styles defined for the ITMD-361 Lab5 */ 
 
 body {
+  background-color: #282d37;
   background-image: url("../media/milkyway.jpg");
   font-family: Verdana, Helvetica, sans-serif;
 }
