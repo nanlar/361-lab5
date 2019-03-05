@@ -1,7 +1,8 @@
 /* Nilufer Anlar
    mystyles.css */
    
-/* The following are my styles defined for the ITMD-361 Lab5 */ 
+/* The following are my styles defined for the ITMD-361 Lab5 
+   I used the Minor Third modular scale with 16px */ 
 
 body {
   background-color: midnightblue;
@@ -9,7 +10,7 @@ body {
 }
 
 h1, h2, p {
-  margin-left: 20px;
+  margin-left: 1.25em;  /* 20px, 20px/16px=1.25em */
   color: white;
 }
 
@@ -31,9 +32,9 @@ h1, h2, p {
 }
 
 table caption {
-  padding: 0.5em;
+  padding: 0.5em;  /* 8px, 8px/16px=0.5em */
   background-color: Silver;
-  font-size: 1.5em;
+  font-size: 1.5em;  /* 24px, 24px/16px=1.5em */
   font-weight: 700;  /* for bold effect */
   color: purple;
 }
@@ -69,34 +70,39 @@ table th, td {
 #data-source {
   font-size: 1em;
   font-style: oblique;
-  padding: 0.5em;
+  padding: 0.5em;  /* 8px */
   justify-content: center;
   background-color: skyblue;
   color: white;
 }
 
 #ppics {
-  margin: 10px 10px;
+  margin: 20px 10px;
+  color: white;
 }
 
 #mercury-pic {
   float: left;
   margin-left:50px;
+  border: solid green;  /* same color as its name in the table */
 }
 
 #venus-pic {
   position: relative;
   margin-left: 200px;
+  border: solid #ff1493;  /* same color as its name in the table */
 }
 
 #earth-pic {
   position: relative;
   margin-left: 200px;
+  border: solid blue;  /* same color as its name in the table */
 }
 
 #mars-pic {
   float: right;
   margin-right: 50px;
+  border: solid red;  /* same color as its name in the table */
 }
 
 
