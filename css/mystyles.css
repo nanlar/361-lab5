@@ -34,6 +34,10 @@ table caption {
   color: purple;
 }
 
+#row-head, #row-mercury, #row-mars, #row-earth, #row-venus {
+ text-align: left;
+}
+
 #planets {
   background-color: beige;
 }
@@ -54,11 +58,8 @@ table caption {
   color: red;
 }
 
-table td {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  padding-left: 0.5em;
-  padding-left: 0.5em;
+table th, td {
+  padding: 0.5em 0.625em;  /* 8px 10px */
 }
 
 #data-source {
