@@ -9,8 +9,13 @@ body {
   font-family: Verdana, Helvetica, sans-serif;
 }
 
-h1, h2, p {
-  margin-left: 1.25em;  /* 20px, 20px/16px=1.25em */
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h2, p {
+  margin: 1.25em 1.25em;  /* 20px, 20px/16px=1.25em */
   color: white;
 }
 
