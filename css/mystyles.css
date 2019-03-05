@@ -75,11 +75,35 @@ table th, td {
   color: white;
 }
 
-.mercury-pic {
-  position: relative;
-  top: 20px; left: 20px;
-  width: 100px;
+#ppics {
+  margin: 10px 10px;
 }
+
+#mercury-pic {
+  float: left;
+  margin-left:50px;
+}
+
+#venus-pic {
+  position: relative;
+  margin-left: 200px;
+}
+
+#earth-pic {
+  position: relative;
+  margin-left: 200px;
+}
+
+#mars-pic {
+  float: right;
+  margin-right: 50px;
+}
+
+
+
+
+
+
 
 
 
